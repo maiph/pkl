@@ -991,6 +991,7 @@ class Bird {
 
 pigeon = new Bird { // <3>
   name = "Pigeon"
+  lifespan = 5
 }
 
 pigeonInIndex = pigeon.nameAndLifespanInIndex // <4>
@@ -1009,13 +1010,13 @@ Invoking Pkl on this file produces the following result.
 ----
 pigeon {
   name = "Pigeon"
-  lifespan = 8
+  lifespan = 5
   nameSignWidth = 9
 }
 pigeonInIndex = "Pigeon, 5"
 pigeonDynamic {
   name = "Pigeon"
-  lifespan = 8
+  lifespan = 5
   nameSignWidth = 9
 }
 ----
